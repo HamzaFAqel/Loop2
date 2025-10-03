@@ -69,8 +69,6 @@ const convertToArray = function (object) {
   for(const key in object){
  arr[key]=object[key]
   }
-  console.log(arr);
-  return arr
   
 };
 

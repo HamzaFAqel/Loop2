@@ -65,13 +65,10 @@ passedOrFailed(studentTwo); // =>  "The student have failed"
 
 const convertToArray = function (object) {
   // TODO: Your code here
-  let arr=[]
-  for(const key in object){
- arr[key]=object[key]
+  for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+    
   }
-  console.log(arr);
-  return arr
-  
 };
 
 convertToArray({ 0: "one", 1: "two", 2: "three" }); // => ["one", "two", "three"]

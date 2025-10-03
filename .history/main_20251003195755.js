@@ -37,15 +37,8 @@ absoluteNumbers({ science: -80, art: 75, english: 77 }); // => {science: 80, art
 const passedOrFailed = function (studentGrades) {
   // TODO: Your code here
   for(const key in studentGrades){
-    if (studentGrades[key].grade<= studentGrades[key].total*0.5){
-       console.log('failed');
-       
-        return 'failed'
-    }
+    if (studentGrades[key].grade<= studentGrades)
   }
-  console.log('passed');
-  
-  return 'passed'
 };
 
 const studentOne = {
@@ -62,18 +55,3 @@ const studentTwo = {
 
 passedOrFailed(studentOne); // =>  "The student have passed"
 passedOrFailed(studentTwo); // =>  "The student have failed"
-
-const convertToArray = function (object) {
-  // TODO: Your code here
-  let arr=[]
-  for(const key in object){
- arr[key]=object[key]
-  }
-  console.log(arr);
-  return arr
-  
-};
-
-convertToArray({ 0: "one", 1: "two", 2: "three" }); // => ["one", "two", "three"]
-convertToArray({ 0: "two", 1: "three", 2: "one" }); // => ["two", "three", "one"]
-convertToArray({ 0: "three", 1: "two", 2: "one" }); // => ["three", "two", "one"]
