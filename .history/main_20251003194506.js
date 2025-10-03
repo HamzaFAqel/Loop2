@@ -5,7 +5,7 @@ const keyValuePairs = function (object) {
    arr.push([key,object[key]])
   }
   console.log(arr);
-  return arr;
+  return arr
   
 };
 

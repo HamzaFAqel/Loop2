@@ -1,12 +1,6 @@
 const keyValuePairs = function (object) {
   // TODO: Your code here
-  let arr=[]
-  for (const key in object){
-   arr.push([key,object[key]])
-  }
-  console.log(arr);
-  return arr;
-  
+  for (const key )
 };
 
 keyValuePairs({ name: "John", age: 24 }); // => [["name", "John"], ["age", 24]]

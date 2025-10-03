@@ -4,8 +4,6 @@ const keyValuePairs = function (object) {
   for (const key in object){
    arr.push([key,object[key]])
   }
-  console.log(arr);
-  return arr;
   
 };
 
